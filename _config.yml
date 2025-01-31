@@ -12,24 +12,27 @@ url:
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: 
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/hachacha/cb-translate
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: cmu translation awooga
+title: CMU POEM PROJECT
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: testing other languages for POEM
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "blah blah blah"
+description: "Project on Open and Evolving Metaliteracies (POEM), an iterative, peer-
+reviewed, curated, bilingual collection of reusable and remixable open educational resources designed to enhance a range 
+of information literacies in learners of high school age and above. POEM will initially be focused on three key literacy 
+areas: algorithm and AI literacies; data and computational literacies; and media and (dis)information literacies."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest
+keywords: artificial intelligence;literacy;learning;english
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: jonathan kirichacha
 # language of the site, used in meta tags and GUI elements
-lang: es
+lang: en
 
 ##########
 # COLLECTION SETTINGS
@@ -52,16 +55,16 @@ metadata: psychiana
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
-organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+organization-name: "Project on Open and Evolving Metaliteracies (POEM)"
+organization-link: https://library.cmu.edu/
+organization-logo-banner: https://iladmedia.pe/wp-content/uploads/2023/04/Jorge-Luis-Borges-literatura.jpg
+organization-logo-nav: 
 
 ##########
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
