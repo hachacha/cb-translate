@@ -18,9 +18,9 @@ source-code: https://github.com/hachacha/cb-translate
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CMU POEM PROJECT
+title: POEM
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: testing other languages for POEM
+tagline: Project on Open and Evolving Metaliteracies
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Project on Open and Evolving Metaliteracies (POEM), an iterative, peer-
@@ -57,7 +57,7 @@ metadata: psychiana
 #
 organization-name: "Project on Open and Evolving Metaliteracies (POEM)"
 organization-link: https://library.cmu.edu/
-organization-logo-banner: https://iladmedia.pe/wp-content/uploads/2023/04/Jorge-Luis-Borges-literatura.jpg
+organization-logo-banner: https://library.cmu.edu/sites/default/files/2024-08/UL_CMU_Logo_Horiz_Black.png
 organization-logo-nav: 
 
 ##########

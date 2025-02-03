@@ -1,9 +1,9 @@
 display_name,stub,dropdown_parent
 Home,/,
+Literacies,,
+All,/literacies.html,Literacies
+item1,/literacies1.html,Literacies
+item2,/literacies2.html,Literacies
 Browse,/browse.html,
-Subjects,/subjects.html,
-Locations,/locations.html,
-Map,/map.html,
-Timeline,/timeline.html,
-Data,/data.html,
 About,/about.html,
+Team,/team.html,
