@@ -3,8 +3,14 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-.fixed-sidenav{
-    position: fixed;
+.sidebar{
+    width:inherit;
+}
+.big-themes{
+    background-color:light-blue;
+}
+.little-themes{
+    background-color:purple;
 }
 .justify-content-right{
     justify-content:right!important
