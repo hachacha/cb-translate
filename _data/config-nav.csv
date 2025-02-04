@@ -1,9 +1,9 @@
 display_name,stub,dropdown_parent
 Home,/,
 Literacies,,
-All,/literacies.html,Literacies
-item1,/literacies1.html,Literacies
-item2,/literacies2.html,Literacies
+Artificial Intelligence,/ai-lit.html,Literacies
+Data,/data-lit.html,Literacies
+Media,/media-lit.html,Literacies
 Browse,/browse.html,
 About,/about.html,
 Team,/team.html,
