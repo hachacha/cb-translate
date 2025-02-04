@@ -18,7 +18,33 @@ item-meta: true
     </h2>
 
     <div class="row justify-content-center">
-        <div class="col-12 col-md-10">
+        <div class="spookyass">
+            <div class="col-3 fixed-sidenav">
+                <ul>
+                    <li>lit</li>
+                    <li>keywords</li>
+                    <li>themes</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-3">
+            <!-- <img src="{{ '/assets/img/monkey.gif' | relative_url }}" /> -->
+            <!-- <img src="{{page.image_thumb}}"> -->
+            <img class="figure-img img-fluid rounded lazyload" alt="{{ page.image_alt_text | default: image_caption | escape }}"  title="{{ site.data.translations['_includes']['feature']['image.html']['click'][site.lang] | default: "click to see item" }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ page.image_thumb }}" >
+            <ul>
+                <li>media type: {{page.display_template}}</li>
+                <li>time: {{page.time}}</li>
+                <li>audience: {{page.audience}}</li>
+            </ul>
+            
+        </div>
+        <div class="col-6">
+            <p>{{page.description}}</p>
+        </div>
+        <!-- that is the top row of items ;) -->
+    </div>
+    <div class="row justify-content-right">
+        <div class="col-9 col-md-10">
 
         {{ content }}
 
@@ -39,6 +65,8 @@ item-meta: true
         </div>
         {% endif %}
     </div>
+    </div>
+        
 
     {%- if site.data.theme.browse-buttons == true -%}
         {% include item/browse-buttons.html %}
